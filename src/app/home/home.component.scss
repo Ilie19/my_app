@@ -66,29 +66,281 @@ height: 30%;
   .work{
     margin: auto;
     text-align: center;
-    font-family:"Audiowide", sans-serif;
+    font-family: 'Elgoc Alt', 'Times New Roman', sans-serif;
     font-size: 40px;
     margin-top: 5%;
     border: #000000 1px solid;
   }
 
-  .qa{
-    border: #000000 1px solid;
-    padding: auto;
-    display: flex;
-    justify-content: center;
-  }
-.qa_img{
-border: #000000 1px solid;
-width: 300px;
 
-}
-.qa_text{
-  border: #000000 1px solid;
-  width: 300px;
-}
-.qa_pos{
+
+  #mySidenav a {
+    position: absolute;
+    display: block;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 0 5px 5px 0;
+    margin-top: 100%;
+  }
   
-    
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #04AA6D;
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555
+  }
+  
+
+  .skill {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-height: 150vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  
+
+.h2-title {
+  position: relative;
+  margin-top: 0px;
+  
+   margin-bottom: 0px;
+  font-family: 'Elgoc Alt', 'Times New Roman', sans-serif;
+  font-size: 6vw;
+  line-height: 1;
+  font-weight: 500;
+border: #000000 1px solid;
 }
+
+.h2-title.h2-title-overflow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 8vw;
+}
+
+
+
+
+.skill-ui-titles {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  padding-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+
+.skill-ui-gradient {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  width: 100%;
+  height: 20vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0b0b0d), to(rgba(12, 12, 18, 0)));
+  background-image: linear-gradient(180deg, #0b0b0d, rgba(12, 12, 18, 0));
+}
+
+
+
+.skill-ui-gradient.skill-ui-gradient-bottom {
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  height: 20vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#0b0b0d), to(rgba(12, 12, 18, 0)));
+  background-image: linear-gradient(0deg, #0b0b0d, rgba(12, 12, 18, 0));
+}
+
+
+
+
+.skill-info {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35%;
+  height: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.skill-info-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding-top: 4vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.skill-info-text {
+  margin-bottom: 75px;
+}
+
+.h5-title {
+  position: relative;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  font-family: 'Elgoc Alt', 'Times New Roman', sans-serif;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+
+.Qa_photo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 10%;
+  margin-left: 50%;
+  display: block;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  float: left;
+  display: block;
+  width: 40%;
+  padding: 10px;
+  border: #000000 1px solid;
+}
+.column2 {
+  margin-top: 5%;
+  float: left;
+  width: 40%;
+  padding: 10px;
+  border: #000000 1px solid;
+}
+.column img {
+  margin-top: 12px;
+   border-radius: 15px;
+}
+
+
+
+
+
+
 
