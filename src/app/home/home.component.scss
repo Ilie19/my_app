@@ -44,7 +44,7 @@ height: 30%;
     
   
 
-  h1{
+  .logo h1{
     
     margin: 40px 0;
     font-family:"Audiowide", sans-serif;
@@ -309,38 +309,60 @@ border: #000000 1px solid;
 
 
 
-.Qa_photo {
+.D_photo {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
   margin-top: 10%;
-  margin-left: 50%;
+  margin-left: 45%;
   display: block;
+  border: #000000 1px solid;
 }
 
 /* Create two equal columns that sits next to each other */
 .column1 {
   float: left;
   display: block;
-  width: 40%;
+  width: 45%;
   padding: 10px;
   border: #000000 1px solid;
 }
 .column2 {
   margin-top: 5%;
-  float: left;
-  width: 40%;
+  float: right;
+  width: 45%;
   padding: 10px;
   border: #000000 1px solid;
+  
 }
-.column img {
+.column1 img {
   margin-top: 12px;
    border-radius: 15px;
+  
+}
+.column2 img {
+  margin-top: 12px;
+   border-radius: 15px;
+  
 }
 
+.Qa_photo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 10%;
+  margin-left: 40%;
+  display: block;
+  border: #000000 1px solid;
+}
 
-
-
-
+.columnQa {
+  margin-top: 5%;
+  float: right;
+  width: 100%;
+  padding: 10px;
+  border: #000000 1px solid;
+  
+}
 
 
